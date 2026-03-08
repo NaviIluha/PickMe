@@ -104,6 +104,27 @@ document.addEventListener("DOMContentLoaded", async function(){
     });
 
     init();
+    // Add card sellers
+    let sellers = await loadData("illaM/selers.json")
+    sellers = sellers["sellers"]
+    sellers.forEach(function(seller){
+      let name = seller.key()
+      let data = seller[name]
+      let card = 
+`<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="${seler.i}" alt="Product Image" />
+      <h3>Modern Minimal Chair</h3>
+    </div>
+    <div class="flip-card-back">
+      <p>This ergonomic chair offers both comfort and modern design. Ideal for workspaces or homes.</p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+</div>`
+ 
+    })
 
     // абра кадабра сим салавим 
     /*
