@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>PickMe</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="src/logo2.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.14.0/gsap.min.js"></script>
+
+  </head>
+  <body>
+    <header class ="header">  </header>
+    <main>
+        <div class ="cover-seller">
+            <img class = "cover-seller-img" src = "">
+            <div class = "cover-seller-text">
+                <h1 class = "cover-seller-text-name"></h1>
+                <p class = "cover-seller-text-about"></p>
+            </div>
+        </div>
+        <div class ="filter-products-seller">
+            
+    <div class="btns">
+        <button type="button" data-menu="all">All</button>
+        <button type="button" data-menu="green">Найдоступніші</button>
+        <button type="button" data-menu="pirple">Преміум-клас</button>
+        <button type="button" data-menu="cadetblue">Середній клас</button>
+        <button type="button" data-menu="red">Товар в дорозі</button>
+        <button type="button" data-menu="gray">Акційні товари</button>
+    </div>
+    <div class="allwrps">
+        <div data-menu="green" class="single" style="background-color: green;">Green</div>
+        <div data-menu="pirple" class="single" style="background-color: blueviolet;">Pirple</div>
+        <div data-menu="red" class="single">Red</div>
+        <div data-menu="pirple" class="single" style="background-color: blueviolet;">Pirple</div>
+        <div data-menu="green" class="single" style="background-color: green;">Green</div>
+        <div data-menu="red" class="single">Red</div>
+        <div data-menu="pirple" class="single" style="background-color: blueviolet;">Pirple</div>
+        <div data-menu="cadetblue" class="single" style="background-color: cadetblue;">Cadetblue</div>
+        <div data-menu="green" class="single" style="background-color: green;">Green</div>
+        <div data-menu="cadetblue" class="single" style="background-color: cadetblue;">Cadetblue</div>
+        <div data-menu="gray" class="single" style="background-color: darkgray;">Gray</div>
+    </div>
+
+        </div>
+        
+
+    </main>
+    <footer class = "footer"></footer>
+    <script src = "./js/components.js"></script>
+    <script src = "./js/sellers.js"></script>
+    <script src = "./js/seller_filter.js"></script>
+    
+  </body>

@@ -6,7 +6,8 @@
       "image": "../src/sofia/1.jpg",
       "aboutshort": "Compact and trendy backpack",
       "about": "A versatile backpack made of durable material, perfect for school or travel.",
-      "comment": ["Love this backpack!", "Very useful for travel."]
+      "comment": ["Love this backpack!", "Very useful for travel."],
+      "data-menu": "green"
     },
     {
       "name": "Canvas Tote Bag",
